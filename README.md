@@ -1,5 +1,5 @@
 # Haunted Places Similarity
-Computing similarity scores and clustering for the Haunted Places dataset using tika similarity.
+Computing similarity scores and clustering for the Haunted Places dataset using tika similarity. See /notebooks for demos.
 
 ## Environment Setup: hauntedEnv
 Install Python packages, install brew (below curl command works for Linux/macOS, see https://brew.sh/), install libmagic:<br><br>
