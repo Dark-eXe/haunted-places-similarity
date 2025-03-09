@@ -1,6 +1,6 @@
 ETL lib
 ====
-https://github.com/chrismattmann/etllib
+***cloned copy: https://github.com/chrismattmann/etllib
 
 Tutorial
 ===
