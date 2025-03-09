@@ -1,0 +1,1 @@
+Cloned copy from https://github.com/chrismattmann/tika-similarity
