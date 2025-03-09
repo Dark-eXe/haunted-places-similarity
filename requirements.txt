@@ -1,4 +1,3 @@
 pandas
 tika
 tika editdistance
-vector
