@@ -1,3 +1,6 @@
+# JSON objects for df rows
+data/Json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
