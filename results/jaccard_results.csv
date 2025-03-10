@@ -1,4 +1,0 @@
-x-coordinate,y-coordinate,Similarity_score
-../data/my_df.csv,../data/haunted_places.tsv,0.26666666666666666
-../data/my_df.csv,../data/haunted_places.json,0.5
-../data/haunted_places.tsv,../data/haunted_places.json,0.26666666666666666
