@@ -22,8 +22,8 @@ import sys
 
 _maxNumNode = 10
 
-def main(outputPath="levelCluster.json") : 
-	with open('clusters.json') as data_file:
+def main(clustersPath="clusters.json",outputPath="levelCluster.json") : 
+	with open(clustersPath) as data_file:
 		data = json.load(data_file)
 		numOfCluster = len(data["children"])
 
@@ -63,4 +63,4 @@ def generateLevel(data):
 
 
 if __name__ == "__main__" :
-	sys.exit(main(outputPath))
+	sys.exit(main(clustersPath,outputPath))
