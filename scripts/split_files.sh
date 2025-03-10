@@ -1,6 +1,6 @@
 i=0;
 
-mydir="../data/json"
+mydir="../data/JSON"
 size=100
 
 for f in ${mydir}/*; do
