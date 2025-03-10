@@ -15,9 +15,7 @@ tikasimilarity/cluster/edit-cosine-circle-packing.py --inputCSV results/jaccard.
 and have put results/clusters/.
 <br>
 
-### Alternative Approach (CURRENTLY PURSUING)
-```diff
-! notebooks/RowToJSON.ipynb: convert EVERY df row into their own JSON object
-! notebooks/RowToJSON.ipynb: place them in a single directory data/JSON/ in batches data/JSON/dir_{partition}/
-! notebooks/ComputeSimilarity.ipynb: run similarity on that directory and place in results/{metric}_{partition}.csv
-```
+## Alternative Approach (CURRENTLY PURSUING)
+- notebooks/RowToJSON.ipynb: convert EVERY df row into their own JSON object
+- notebooks/RowToJSON.ipynb: place them in a single directory data/JSON/ in batches data/JSON/dir_{partition}/
+- notebooks/ComputeSimilarity.ipynb: run similarity on that directory and place in results/{metric}_{partition}.csv
