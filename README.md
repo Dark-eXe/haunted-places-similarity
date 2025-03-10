@@ -18,6 +18,6 @@ and have put results/clusters/.
 ### Alternative Approach (CURRENTLY PURSUING)
 ```diff
 ! convert EVERY df row into their own JSON object
-! place them in a single directory
-! run similarity Python scripts on that directory
+! place them in a single directory data/JSON/ in batches data/JSON/dir_{partition}/
+! run similarity Python scripts on that directory and place in results/{metric}_{partition}.csv
 ```
