@@ -19,4 +19,4 @@ and have put results/clusters/.
 - notebooks/RowToJSON.ipynb: convert EVERY df row into their own JSON object
 - notebooks/RowToJSON.ipynb: place them in a single directory data/JSON/ in batches data/JSON/dir_{partition}/
 - notebooks/ComputeSimilarity.ipynb: run similarity on that directory and place in results/{metric}_{partition}.csv
-- notebooks/ComputeClusters.ipynb: run clusters on that directory and place in TBA
+- notebooks/ComputeCluster.ipynb: run clusters on that directory and place in TBA (eventually results/clusters/)
