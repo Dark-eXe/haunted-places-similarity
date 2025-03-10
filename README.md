@@ -7,7 +7,13 @@ executed on 1 split...
 ```diff
 tikasimilarity/distance/jaccard_similarity.py --inputDir data/splits/dir_001 --outCSV results/jaccard.csv
 ```
-but x,y coordinates retain same names in results/jaccard.csv making it hard to interpret (don't know if that even matters when running clusters later)<br><br>
+but x,y coordinates retain same names in results/jaccard.csv making it hard to interpret (don't know if that even matters when running clusters later).<br>
+Achieved first cluster on 1 split...
+```diff
+tikasimilarity/cluster/edit-cosine-circle-packing.py --inputCSV results/jaccard.csv --cluster 2
+```
+and have put result in results/clusters.
+<br>
 
 ## Alternative Approach (not currently pursuing)
 ```diff
