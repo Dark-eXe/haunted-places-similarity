@@ -17,7 +17,6 @@ and have put result home folder for now.
 
 ### Alternative Approach (CURRENTLY PURSUING)
 ```diff
-! Alternative Approach:
 ! convert EVERY df row into their own JSON object
 ! place them in a single directory
 ! run similarity Python scripts on that directory
