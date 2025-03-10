@@ -1,8 +1,14 @@
 # Haunted Places Similarity
 Computing similarity scores and clustering for the Haunted Places dataset using tika similarity. See /notebooks for demos.<br>
-Planned Approach: follow https://github.com/chrismattmann/tika-similarity/wiki/Tutorial <br><br>
 
-CURRENT STATUS:<br>
+## Alternative Approach (CURRENTLY PURSUING)
+- notebooks/RowToJSON.ipynb: convert EVERY df row into their own JSON object
+- notebooks/RowToJSON.ipynb: place them in a single directory data/JSON/ in batches data/JSON/dir_{partition}/
+- notebooks/ComputeSimilarity.ipynb: run similarity on that directory and place in results/{metric}_{partition}.csv
+- notebooks/ComputeCluster.ipynb: run clusters on that directory and place in results/clusters
+
+## Original Approach (instructor-given tutorial on tika similarity)
+follows https://github.com/chrismattmann/tika-similarity/wiki/Tutorial <br>
 executed on 1 split...
 ```diff
 tikasimilarity/distance/jaccard_similarity.py --inputDir data/splits/dir_001 --outCSV results/jaccard.csv
@@ -14,9 +20,3 @@ tikasimilarity/cluster/edit-cosine-circle-packing.py --inputCSV results/jaccard.
 ```
 and have put results/clusters/.
 <br>
-
-## Alternative Approach (CURRENTLY PURSUING)
-- notebooks/RowToJSON.ipynb: convert EVERY df row into their own JSON object
-- notebooks/RowToJSON.ipynb: place them in a single directory data/JSON/ in batches data/JSON/dir_{partition}/
-- notebooks/ComputeSimilarity.ipynb: run similarity on that directory and place in results/{metric}_{partition}.csv
-- notebooks/ComputeCluster.ipynb: run clusters on that directory and place in results/clusters
