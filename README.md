@@ -15,7 +15,7 @@ tikasimilarity/cluster/edit-cosine-circle-packing.py --inputCSV results/jaccard.
 and have put result home folder for now.
 <br>
 
-### Alternative Approach (not currently pursuing)
+### Alternative Approach (CURRENTLY PURSUING)
 ```diff
 ! Alternative Approach:
 ! convert EVERY df row into their own JSON object
