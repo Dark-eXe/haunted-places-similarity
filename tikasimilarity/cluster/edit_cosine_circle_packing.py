@@ -23,7 +23,7 @@ import csv
 import sys
 
 
-def createCluster(inputCSV,argNum):
+def createCluster(inputCSV,argNum, outputPath):
     row=[]
     if(argNum not in [0,1,2]):
         print("Input Error! \nPass argument to --cluster as one of the following\n0 for clustering based on x-coordinate, \n1 for clustering based on y-coordinate, \n2 for clustering based on similarity score")
@@ -69,7 +69,7 @@ def createCluster(inputCSV,argNum):
     #print(json.dumps(clusterList, sort_keys=True, indent=4, separators=(',', ': ')))
 
     clusterStruct = {"name":"clusters", "children":clusterList}
-    with open("circle.json", "w") as f:             #Pass the json file as input to circle-packing.html
+    with open(outputPath, "w") as f:             #Pass the json file as input to circle-packing.html
         f.write(json.dumps(clusterStruct, sort_keys=True, indent=4, separators=(',', ': ')))
 
 if __name__ == '__main__':
@@ -78,4 +78,4 @@ if __name__ == '__main__':
     argParser.add_argument('--cluster', required=True, type=int, help='Cluster based on the x-coordinate/y-coordinate/similarity score. Pass 0 for clustering based on x-coordinate, 1 for clustering based on y-coordinate, 2 for clustering based on similarity score')
     args = argParser.parse_args()
 
-    createCluster(args.inputCSV, args.cluster)
+    createCluster(args.inputCSV, args.cluster, "circle.json")

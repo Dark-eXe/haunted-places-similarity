@@ -22,7 +22,7 @@ import sys
 
 _maxNumNode = 10
 
-def main(argv = None) : 
+def main(outputPath="levelCluster.json") : 
 	with open('clusters.json') as data_file:
 		data = json.load(data_file)
 		numOfCluster = len(data["children"])
@@ -34,7 +34,7 @@ def main(argv = None) :
 				for j in range(1, level) : 
 					clusterChildren = generateLevel(data["children"][i]["children"])
 					data["children"][i]["children"] = clusterChildren
-	with open("levelCluster.json", "w") as f:
+	with open(outputPath, "w") as f:
 		f.write(json.dumps(data, sort_keys=True, indent=4, separators=(',', ': ')))
 
 
@@ -63,4 +63,4 @@ def generateLevel(data):
 
 
 if __name__ == "__main__" :
-	sys.exit(main())
+	sys.exit(main(outputPath))
