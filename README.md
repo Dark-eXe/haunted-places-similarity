@@ -10,7 +10,10 @@ Planned Approach: follow https://github.com/chrismattmann/tika-similarity/wiki/T
 
 ## Environment Setup: hauntedEnv
 ```diff
-- Update: etllib must be invoked in CLI, so no notebook for converting TSV to JSON
+- Update: etllib must be invoked in CLI, so no notebook for converting TSV to JSON.
+
+Example execution from etllib directory:
+tsvtojson -t ../haunted-places-similarity/data/my_df.tsv -j ../haunted-places-similarity/data/my_df.json -o data -c colheaders.conf -s 0.8
 ```
 Install Python packages, install brew (below curl command works for Linux/macOS, see https://brew.sh/), install libmagic:<br><br>
 In terminal:
