@@ -18,7 +18,7 @@
 #
 
 from tika import parser
-from vector import Vector
+from .vector import Vector
 import os, itertools, argparse, csv
 from requests import ConnectionError
 from time import sleep
