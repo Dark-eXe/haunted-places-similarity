@@ -1,10 +1,11 @@
 # Haunted Places Similarity
 Computing similarity scores and clustering for the Haunted Places dataset using tika similarity. See /notebooks for demos.<br>
+Planned Approach: https://github.com/chrismattmann/tika-similarity/wiki/Tutorial <br>
 ```diff
-+ Planned Approach:
-+ convert EVERY df row into their own JSON object
-+ place them in a single directory
-+ run similarity Python scripts on that directory
+! Alternative Approach:
+! convert EVERY df row into their own JSON object
+! place them in a single directory
+! run similarity Python scripts on that directory
 ```
 
 ## Environment Setup: hauntedEnv
