@@ -12,7 +12,7 @@ Achieved first cluster on 1 split...
 ```diff
 tikasimilarity/cluster/edit-cosine-circle-packing.py --inputCSV results/jaccard.csv --cluster 2
 ```
-and have put result home folder for now.
+and have put results/clusters/.
 <br>
 
 ### Alternative Approach (CURRENTLY PURSUING)
