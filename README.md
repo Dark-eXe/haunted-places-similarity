@@ -1,5 +1,5 @@
 # Haunted Places Similarity
-Computing similarity scores and clustering for the Haunted Places dataset using tika similarity. See /notebooks for demos.<br>
+Compute similarity scores and clustering for the Haunted Places dataset using tika similarity.<br>
 
 ## Alternative Approach (CURRENTLY PURSUING)
 - notebooks/RowToJSON.ipynb: convert EVERY df row into their own JSON object
