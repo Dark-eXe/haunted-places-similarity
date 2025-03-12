@@ -2,7 +2,7 @@
 Compute similarity scores and clustering for the Haunted Places dataset (with additional derived/joined features of various techniques/sources) using tika similarity: https://github.com/chrismattmann/tika-similarity<br>
 
 ## Status
-Exploring further visualization options with D3 as referred from https://github.com/chrismattmann/tika-similarity.
+Exploring further visualization options with D3 as referred from https://github.com/chrismattmann/tika-similarity and drafting analysis writeup.
 
 ## Current Approach
 - ```notebooks/RowToJSON.ipynb```: convert EVERY df row into their own JSON object and place them in a single directory ```data/JSON/``` in batches ```data/JSON/dir_{partition}/```
