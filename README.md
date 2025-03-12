@@ -1,4 +1,4 @@
-# Haunted Places Similarity
+# Haunted Places - Cluster Analysis using Tika Similarity and D3.js
 Compute similarity scores and clustering for the Haunted Places dataset using tika similarity: https://github.com/chrismattmann/tika-similarity<br>
 
 ## Current Approach
