@@ -7,6 +7,9 @@ Computing similarity scores and clustering for the Haunted Places dataset using 
 - notebooks/ComputeSimilarity.ipynb: run similarity on that directory and place in results/{metric}_{partition}.csv
 - notebooks/ComputeCluster.ipynb: run clusters on that directory and place in results/clusters
 
+![cluster](https://github.com/user-attachments/assets/16e1dbfd-6a32-45fb-8e17-a43d9b4cc754)
+
+
 ## Original Approach (instructor-given tutorial on tika similarity)
 follows https://github.com/chrismattmann/tika-similarity/wiki/Tutorial <br>
 executed on 1 split...
