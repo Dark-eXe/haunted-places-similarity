@@ -2,10 +2,10 @@
 Compute similarity scores and clustering for the Haunted Places dataset using tika similarity: https://github.com/chrismattmann/tika-similarity<br>
 
 ## Current Approach
-- notebooks/RowToJSON.ipynb: convert EVERY df row into their own JSON object
-- notebooks/RowToJSON.ipynb: place them in a single directory data/JSON/ in batches data/JSON/dir_{partition}/
-- notebooks/ComputeSimilarity.ipynb: run similarity on that directory and place in results/{metric}_{partition}.csv
-- notebooks/ComputeCluster.ipynb: run clusters on that directory and place in results/clusters
+- ```notebooks/RowToJSON.ipynb```: convert EVERY df row into their own JSON object
+- ```notebooks/RowToJSON.ipynb```: place them in a single directory ```data/JSON/``` in batches ```data/JSON/dir_{partition}/```
+- ```notebooks/ComputeSimilarity.ipynb```: run similarity on that directory and place in ```results/{metric}_{partition}.csv```
+- ```notebooks/ComputeCluster.ipynb```: run clusters on that directory and place in ```results/clusters```
 
 #### Sample d3 cluster visualization using Jaccard similarity on partition 0 using every feature:
 ![cluster](https://github.com/user-attachments/assets/16e1dbfd-6a32-45fb-8e17-a43d9b4cc754)
