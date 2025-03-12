@@ -7,6 +7,7 @@ Computing similarity scores and clustering for the Haunted Places dataset using 
 - notebooks/ComputeSimilarity.ipynb: run similarity on that directory and place in results/{metric}_{partition}.csv
 - notebooks/ComputeCluster.ipynb: run clusters on that directory and place in results/clusters
 
+#### Sample d3 cluster visualization using Jaccard similarity on partition 0 using every feature:
 ![cluster](https://github.com/user-attachments/assets/16e1dbfd-6a32-45fb-8e17-a43d9b4cc754)
 
 
