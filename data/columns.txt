@@ -5,7 +5,7 @@ state
 Audio Evidence
 time_of_day
 Witness Count
-event
+Event
 apparition_types_str
 Murder per capita
 Violent Crime per capita
