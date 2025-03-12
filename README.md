@@ -5,6 +5,7 @@ Compute similarity scores and clustering for the Haunted Places dataset (with ad
 Exploring further visualization options with D3 as referred from https://github.com/chrismattmann/tika-similarity and drafting analysis writeup.
 
 ## Current Approach
+- ```notebooks/SelectColumns.ipynb```: select specific columns for analysis
 - ```notebooks/RowToJSON.ipynb```: convert EVERY df row into their own JSON object and place them in a single directory ```data/JSON/``` in batches ```data/JSON/dir_{partition}/```
 - ```notebooks/ComputeSimilarity.ipynb```: run similarity on that directory and place in ```results/similarity/dir_{partition}/{metric}_sim.csv```
 - ```notebooks/ComputeCluster.ipynb```: run clusters on that directory and place in ```results/clusters/dir_{partition}/{metric}/```
