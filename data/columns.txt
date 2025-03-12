@@ -24,3 +24,5 @@ death_rate_Suicide
 death_rate_Kidney disease
 death_rate_CLRD 
 death_rate_Diabetes
+Alcohol Deaths
+Alcohol Deaths Under 21
