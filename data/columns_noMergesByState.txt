@@ -1,0 +1,10 @@
+city
+description
+location
+state
+Audio Evidence
+time_of_day
+Witness Count
+Event
+apparition_types_str
+Visual Evidence
