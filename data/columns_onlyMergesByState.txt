@@ -1,0 +1,23 @@
+city
+description
+location
+state
+Murder per capita
+Violent Crime per capita
+Property Crime per capita
+Undergrad_Grad_Rate
+HS_Grad_Rate
+STEM_Grad_Percentage
+Visual Evidence
+death_rate_Alzheimer's disease
+death_rate_Cancer 
+death_rate_Heart disease
+death_rate_Unintentional injuries
+death_rate_All causes
+death_rate_Influenza and pneumonia
+death_rate_Suicide
+death_rate_Kidney disease
+death_rate_CLRD 
+death_rate_Diabetes
+Alcohol Deaths
+Alcohol Deaths Under 21
