@@ -1,3 +1,9 @@
 pandas
 tika
 tika editdistance
+openai
+tqdm
+opencv-python
+pytesseract
+matplotlib
+number-parser
