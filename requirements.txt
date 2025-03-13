@@ -1,6 +1,6 @@
 pandas
 tika
-tika editdistance
+editdistance
 openai
 tqdm
 opencv-python
