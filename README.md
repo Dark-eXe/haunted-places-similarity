@@ -1,10 +1,7 @@
 # Haunted Places - Cluster Analysis using Tika Similarity and D3.js
 Compute similarity scores and clustering for the Haunted Places dataset (with additional derived/joined features of various techniques/sources) using tika similarity: https://github.com/chrismattmann/tika-similarity<br>
 
-## Status
-Exploring further visualization options with D3 as referred from https://github.com/chrismattmann/tika-similarity and drafting analysis writeup.
-
-## Current Approach
+## Approach for Cluster Analysis
 - ```notebooks/SelectColumns.ipynb```: select specific columns for analysis
 - ```notebooks/RowToJSON.ipynb```: convert EVERY df row into their own JSON object and place them in a single directory ```data/JSON/``` in batches ```data/JSON/dir_{partition}/```
 - ```notebooks/ComputeSimilarity.ipynb```: run similarity on that directory and place in ```results/similarity/dir_{partition}/{metric}_sim.csv```
@@ -13,18 +10,3 @@ Exploring further visualization options with D3 as referred from https://github.
 
 #### Sample d3 cluster visualization using Jaccard similarity on partition 0 using every feature:
 ![cluster](https://github.com/user-attachments/assets/16e1dbfd-6a32-45fb-8e17-a43d9b4cc754)
-
-
-## Original Approach (instructor-given tutorial on tika similarity)
-follows https://github.com/chrismattmann/tika-similarity/wiki/Tutorial <br>
-executed on 1 split...
-```diff
-tikasimilarity/distance/jaccard_similarity.py --inputDir data/splits/dir_001 --outCSV results/jaccard.csv
-```
-but x,y coordinates retain same names in results/jaccard.csv making it hard to interpret (don't know if that even matters when running clusters later).<br>
-Achieved first cluster on 1 split...
-```diff
-tikasimilarity/cluster/edit-cosine-circle-packing.py --inputCSV results/jaccard.csv --cluster 2
-```
-and have put results/clusters/.
-<br>
